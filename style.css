@@ -1,0 +1,46 @@
+body{
+    background-image: url("background.png");
+    background-size: cover;
+}
+#heading{
+    background-color: #802f93;
+    color: white;
+    font-size: 35px;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+    position:fixed;
+    font-family: 'Amatic SC', cursive;
+}
+#input_p{
+    font-family: 'Amatic SC',cursive;
+    font-size: 20px;
+    color: #802f93;
+}
+#input{
+    border-radius: 5px;;
+    border: none;
+    padding: 5px;
+    color: #802f93;
+    font-family: 'Amatic SC',cursive;
+    font-size: 20px;
+}
+#start{
+    background-color: #a54ab9;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Amatic SC',cursive;
+}
+#found,#status{
+    background-color: #802f93;
+    border: none;
+}
+canvas{
+    border: #802f93 5px solid;
+    box-shadow: 0px 0px 40px #a5d9df;
+}
